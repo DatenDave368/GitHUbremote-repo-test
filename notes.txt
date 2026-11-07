@@ -1,1 +1,3 @@
-git init für den Start
+git init // (to start)
+git add <file> // (adds certain file) / git add <.> // (adds the whole directory) [without <> brackets]
+git commit -m "your commit message"
