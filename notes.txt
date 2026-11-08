@@ -1,6 +1,6 @@
 git init // (to start)
 git add <file> // (adds certain file) / git add <.> // (adds the whole directory) [without <> brackets]
 git commit -m "your commit message"0
-git reset --soft HEAD~1 // takes commit back to staged i.e. you want to change a word
+git reset --soft HEArt~1 // takes commit back to staged i.e. you want to change a word
 git reset --mixed HEAD~1 // takes commit back to file area
 git reset --hard HEAD~1 // rm commit completly i.e. commit was complete bullox
