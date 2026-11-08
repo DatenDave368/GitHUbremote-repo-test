@@ -1,6 +1,8 @@
-git init // (to start)
+git init // (to start)\
 git add <file> // (adds certain file) / git add <.> // (adds the whole directory) [without <> brackets]
 git commit -m "your commit message"0
 git reset --soft HEAD~1 // takes commit back to staged i.e. you want to change a word
 git reset --mixed HEAD~1 // takes commit back to file area
 git reset --hard HEAD~1 // rm commit completly i.e. commit was complete bullox
+git revert commitHash (right click on commit, copy commit hash) // removes commit from Github creates new commit that reverts commit with the reverted hash
+[Hast du es schon auf Github dann revert hast du es noch nicht auf Github dann reset]
